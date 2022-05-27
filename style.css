@@ -93,11 +93,11 @@ body {
 }
   .sidenav {
     height: 78%;
-    width: 0;
+    width: 5%;
     position:absolute;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 22px;
     background-color: #221f1f ;
     overflow-x: hidden;
     transition: 0.5s;
@@ -135,7 +135,7 @@ body {
     color: #f70404;
   }
   .dropdown-btn:hover {
-    color: #f70404;}
+    color: red;}
     active {
         background-color: green;
         color: white;
@@ -150,23 +150,27 @@ body {
         float: right;
         padding-right: 8px;
       }
+
       
-  
+  .side{
+    font-size: 10px;
+  }
   .sidenav .closebtn {
     position:absolute;
     top: 0;
     left: 0px;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 0px;
     padding-top: 0px;
   }
   
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
+    .sidenav {padding-top: 15px; padding-left: 10px;}
     .sidenav a {font-size: 18px;}
   }
 .chartContainer{
-    margin-right: 100px;
+  margin-top: 30px;
+    margin-right: 90px;
 }  
 .navibar {
     width: 70%;
@@ -185,7 +189,7 @@ body {
   }
   
   .navibar a:hover {
-    background-color: rgb(227, 9, 9);
+    background-color: rgb(250, 7, 7);
   }
   
   .navibar a.active {
@@ -205,20 +209,20 @@ body {
  
 .save{
     text-decoration: none;
-    margin-top: 100px;
-    margin-left:1050px;
-    width:300px;
-    height:100px;
+    margin-top: 70px;
+    margin-left:1080px;
+    width:100px;
+    height:50px;
     color: #0eb02c;
-    border-radius: 10px;
-    background-color: #221f1f;
-    font-size:xx-large;
+    border-radius: 20px;
+    background-color: #f9fbfc;
+    border-color: red;
     transition: 0.5s;
     font-style: arial ;
   
 }
 .save :hover{
-    background-color: #221f1f;
+    
     cursor: pointer;
     outline: none;
     text-decoration: none;
